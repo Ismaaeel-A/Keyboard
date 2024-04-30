@@ -12,10 +12,20 @@
     width: fit-content;
     margin-inline: auto;
     margin-block: 50px;
+    padding: 7px;
+    box-shadow: 0px 20px 30px black, 0px 25px 35px gray;
+    animation: move 4s infinite;
 }
 
+/* @keyframes move {
+    50% {
+        transform: translateY(200px);
+        box-shadow: 0px -20px 30px black, 0px -25px 35px gray;
+    }
+} */
+
 body {
-    background: rgb(128, 128, 128);
+    background: rgb(121, 87, 87);
 }
 
 .key {
